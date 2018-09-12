@@ -19,7 +19,7 @@ request = pc.makeRequestRSpec()
  
 # Add a raw PC to the request.
 node = request.XenVm("node32")
-node.disk_image = http://mirror.datto.com/CentOS/7/isos/x86_64/CentOS-7-x86_64-DVD-1804.iso
+node.disk_image = "http://mirror.datto.com/CentOS/7/isos/x86_64/CentOS-7-x86_64-DVD-1804.iso"
 
 # Install and execute a script that is contained in the repository.
 node.addService(pg.Execute(shell="sh", command="/local/repository/silly.sh"))
