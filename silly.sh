@@ -1,4 +1,5 @@
 #!/bin/bash
 
-echo "This is a silly script" > /tmp/silly.txt
+sudo yum update && yum install apache2
+
 
