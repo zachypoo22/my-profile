@@ -18,7 +18,7 @@ pc = portal.Context()
 request = pc.makeRequestRSpec()
  
 # Add a raw PC to the request.
-node = request.XenVM("node17")
+node = request.XenVM("node0")
 
 # use centos
 node.disk_image = "urn:publicid:IDN+emulab.net+image+emulab-ops:CENTOS7-64-STD"
