@@ -1,5 +1,3 @@
 #!/bin/bash
 
-sudo yum update && yum install apache2
-
-
+sudo yum update && sudo yum install apache2
