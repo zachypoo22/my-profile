@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo yum update && sudo yum install -y httpd && sudo systemctl restart httpd.service
+sudo yum -y update && sudo yum install -y httpd && sudo systemctl restart httpd.service
